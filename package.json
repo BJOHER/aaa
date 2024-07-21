@@ -4,18 +4,22 @@
   "workspaces": [
     "packages/*"
   ],
-  "dependencies": {},
   "devDependencies": {
+    "husky": "^9.1.1",
     "lerna": "^8.1.6"
   },
   "scripts": {
     "preinstall": "npx only-allow pnpm",
-    "prepare": "husky install ",
+    "prepare": "husky",
     "init": "pnpm install --no-frozen-lockfile",
     "clean": "lerna clean && rm -rf node_modules",
     "test": "lerna run test",
     "publish": "lerna publish",
     "lint": "markdownlint README.md",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }
