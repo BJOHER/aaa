@@ -22,5 +22,8 @@
   },
   "bugs": {
     "url": "https://github.com/BJOHER/aaa/issues"
+  },
+  "dependencies": {
+    "conventional-changelog-conventionalcommits": "^8.0.0"
   }
 }
