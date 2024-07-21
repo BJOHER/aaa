@@ -1,0 +1,15 @@
+0 silly argv {
+0 silly argv   _: [ 'create' ],
+0 silly argv   lernaVersion: '8.1.6',
+0 silly argv   '$0': 'C:\\Program Files\\nodejs\\node_modules\\lerna\\dist\\cli.js',
+0 silly argv   name: 'ph0-markdownconfig'
+0 silly argv }
+1 notice cli v8.1.6
+2 verbose packageConfigs Package manager "pnpm" detected. Resolving packages using `pnpm-workspace.yaml`.
+3 verbose rootPath E:\project\test
+4 error Error: Command failed with exit code 1: git config --get user.email
+4 error     at makeError (E:\project\test\node_modules\execa\lib\error.js:59:11)
+4 error     at module.exports.sync (E:\project\test\node_modules\execa\index.js:186:17)
+4 error     at execSync (E:\project\test\node_modules\@lerna\create\dist\command.js:1505:31)
+4 error     at CreateCommand.gitConfig (E:\project\test\node_modules\@lerna\create\dist\command.js:5481:16)
+4 error     at CreateCommand.initialize (E:\project\test\node_modules\@lerna\create\dist\command.js:5415:51)

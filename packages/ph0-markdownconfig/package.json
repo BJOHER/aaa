@@ -1,0 +1,22 @@
+{
+  "name": "ph0-markdownconfig",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "bjoher <1274863378@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/ph0-markdownconfig.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com/"
+  },
+  "scripts": {
+    "test": "node ./__tests__/ph0-markdownconfig.test.js"
+  }
+}
