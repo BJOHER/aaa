@@ -1,0 +1,3 @@
+{
+  "extends": "./packages/ph0-markdownconfig/lib/ph0-markdownconfig.js"
+}

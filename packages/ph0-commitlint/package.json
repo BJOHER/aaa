@@ -1,0 +1,26 @@
+{
+  "name": "ph0-commitlint",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "bjoher <1274863378@qq.com>",
+  "homepage": "https://github.com/BJOHER/aaa#readme",
+  "license": "ISC",
+  "main": "lib/ph0-commitlint.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BJOHER/aaa.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/ph0-commitlint.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/BJOHER/aaa/issues"
+  }
+}
